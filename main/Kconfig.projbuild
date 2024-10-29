@@ -1,0 +1,16 @@
+menu "Modem Configuration"
+
+    config MODEM_UART_PORT
+        int "UART port number for modem"
+        range 0 2
+        default 1
+        help
+            UART port number to use for modem communication.
+            
+    config MODEM_BAUDRATE
+        int "Modem UART baudrate"
+        default 115200
+        help
+            Baudrate for modem UART communication.
+
+endmenu
