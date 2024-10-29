@@ -25,6 +25,7 @@ void sleep_mode();
 void wake_up();
 void set_phone_functionality(int fun, int rst);
 void set_network_mode(int mode);
+void enable_network();
 void disable_network();
 void gprs_connect(char *apn, char *user, char *pass);
 void gprs_disconnect();
