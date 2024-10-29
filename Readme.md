@@ -74,7 +74,7 @@ esp32-modem-project/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/mictilt/SIM76XX_AT.git
+git clone https://github.com/Mictilt/SIM76XX_AT.git
 cd esp32-modem-project
 ```
 
